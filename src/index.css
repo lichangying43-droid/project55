@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;700&family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Serif TC", serif;
+  --font-sans: "Zen Maru Gothic", sans-serif;
+  --color-brand-bg: #FCF9F0;
+  --color-brand-sidebar: #FAF7ED;
+  --color-brand-border: #E8E2D0;
+  --color-brand-accent: #8C6B3D;
+  --color-brand-gold: #D4AF37;
+  --color-brand-dark: #332D26;
+  --color-brand-muted: #A89F8E;
+  --color-brand-text: #5C5449;
+}
+
+/* Custom background patterns and ambient styling */
+body {
+  font-family: var(--font-serif), var(--font-sans);
+  background-color: #FCF9F0;
+  color: #332D26;
+}
+
+/* Modern minimalist styling */
+input, select, textarea {
+  font-family: var(--font-sans);
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FCF9F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #8C6B3D;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #332D26;
+}

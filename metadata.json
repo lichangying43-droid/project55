@@ -1,0 +1,6 @@
+{
+  "name": "雅庵日式餐廳訂位系統",
+  "description": "提供溫暖和風美學的日式餐飲體驗，具備會員註冊與登入、個人訂位紀錄管理、與餐廳相簿展示等功能。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
